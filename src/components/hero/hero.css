@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+#hero {
+  height: 38.6rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(5, 36, 43, 0.85),
+      rgba(5, 36, 43, 0.85)
+    ),
+    url(../../Asset/hero-bg.png);
+  overflow: hidden;
+
+}
+.hero-img img {
+  position: absolute;
+  width: 32rem;
+  height: 45rem;
+  left: 60.3%;
+  top: -2.3rem;
+}
+
+h1 {
+  position: absolute;
+  width: 758px;
+  height: 106px;
+  left: 341px;
+  top: 125px;
+
+  color: var(--white);
+  font-size: 45px;
+  padding: 50px auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 53px;
+}
+
+.search {
+  display: flex;
+  position: absolute;
+  width: 870px;
+  height: 101px;
+  left: 285px;
+  top: 282px;
+  background: #f0f0f0;
+  padding: 0 20px;
+  border: 0.3px solid #05242b;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.category {
+  display: flex;
+  width: 20%;
+}
+.category p {
+  position: absolute;
+  width: 142px;
+  height: 29px;
+  left: 303px;
+  top: 318px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #111111;
+
+  opacity: 0.9;
+}
+.arrow {
+  font-size: 24px;
+  left: 459px;
+  top: 335px;
+}
+
+.divider {
+  margin: 0 10px;
+  width: 2px;
+  height: 100%;
+  background-color: var(--primary-dark);
+}
+input {
+  width: 438px;
+  height: 100%;
+  left: 514px;
+  top: 318px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #111111;
+  background-color: var(--foreground);
+  opacity: 0.5;
+  border: none;
+  border-color: none;
+  outline: none;
+}
+input::before {
+  content: "";
+  height: 100%;
+  width: 2px;
+  border-left: 2px solid black;
+}
+
+.search-btn {
+  background-color: var(--primary-yellow);
+  padding: 1rem;
+  width: 154px;
+  height: 71px;
+  left: 986px;
+  top: 297px;
+  font-size: 24px;
+  color: var(--foreground);
+  border: none;
+  border-radius: 15px;
+}
+
+.location {
+  color: var(--primary-yellow);
+  display: flex;
+  border: 1px solid var(--primary-yellow);
+  padding: 0.5rem;
+  margin-top: 2rem;
+  position: absolute;
+  width: 280px;
+  height: 59px;
+  left: 580px;
+  top: 408px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+
+.location_div {
+  border-left: 1px solid var(--primary-yellow);
+  height: 130%;
+  margin: 0 5px;
+}

@@ -1,0 +1,74 @@
+.header {
+  background-color: var(--background);
+  height: 80px;
+  width: 100vw;
+  padding: ;
+  justify-content: space-between;
+  display: flex;
+}
+img {
+  width: 215px;
+  height: 52px;
+  margin-left: 60px;
+  margin-top: 14px;
+}
+
+.nav-options{
+    display: flex;
+    width: 50%;
+justify-content: space-evenly;
+}
+
+/* button */
+.list-btn {
+  height: 50px;
+  width: 200px;
+  padding: 10px 20px;
+  background: #05242b;
+  border: 0.3px solid #05242b;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+}
+
+.list-btn button{
+    color: var(--primary-yellow);
+    background: none;
+    border: none;
+    align-items: center;
+    font-size: 24px;
+}
+
+.cart{
+  color: var(--primary-yellow);
+  font-size: 25px;
+  margin-right: 5px;
+}
+.store, .account{
+    display: flex;
+}
+div{
+  font-size: 1.5rem;
+  align-items: center;
+}
+p{
+  margin-left: 10px;
+}
+.icon{
+  font-size: 30px;
+  opacity: 0.7;
+}
+.notification{
+  position: relative;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+.notify{
+  position: absolute;
+  left: 85%;
+  background-color: var(--red);
+  padding: 6px;
+  border-radius: 50%;
+  top: 0%;
+}
