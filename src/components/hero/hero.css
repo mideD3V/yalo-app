@@ -23,10 +23,10 @@
 }
 .hero-img img {
   position: absolute;
-  width: 32rem;
-  height: 45rem;
-  left: 60.3%;
-  top: -2.3rem;
+  width: 28rem;
+  height: 42rem;
+  left: 65%;
+  top: -4.3rem;
 }
 
 h1 {
@@ -135,7 +135,7 @@ input::before {
   width: 280px;
   height: 59px;
   left: 580px;
-  top: 408px;
+  top: 380px;
   font-size: 1.5rem;
   border-radius: 5px;
   justify-content: space-evenly;

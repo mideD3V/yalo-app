@@ -1,11 +1,11 @@
 #popular {
   background-color: var(--foreground);
-  width: 90vw;
+  width: 92vw;
   height: 13rem;
   /* width: 1320px; */
   position: absolute;
   left: 60px;
-  top: 85%;
+  top: 75%;
   /* margin-top: -50px; */
   border-radius: 10px;
   box-shadow: var(--image-shadow);
@@ -13,10 +13,11 @@
 
 h3 {
   position: absolute;
-  width: 241px;
+  width: 50%;
   height: 38px;
   left: 10px;
   top: -50px;
+  font-size: 35px;
   color: var(--foreground);
 }
 .items{
@@ -27,8 +28,18 @@ h3 {
   text-align: center;
   align-content: center;
 }
+
 .item img{
-background-color: brown;
 height: 120px;
 width: 120px;
+margin: 0 auto;
+
+}
+.item {
+justify-content: center;
+align-content: center;
+}
+.item figcaption{
+  font-size: 1.2rem;
+  margin-top: 20px;
 }

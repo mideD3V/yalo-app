@@ -2,9 +2,10 @@
   background-color: var(--background);
   height: 80px;
   width: 100vw;
-  padding: ;
+  position: fixed;
   justify-content: space-between;
   display: flex;
+  z-index: 1;
 }
 img {
   width: 215px;
