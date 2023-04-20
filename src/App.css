@@ -19,7 +19,17 @@
 body{
   background: var(--background);
 }
-
+html{
+  scroll-behavior: smooth;
+}
 section {
   margin: 0 auto;
+}
+
+button{
+  cursor: pointer;
+}
+button:hover{
+  background-color: var(--foreground);
+  color: var(--primary-yellow);
 }

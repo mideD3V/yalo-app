@@ -1,0 +1,27 @@
+#list{
+    background-color: lightsalmon;
+    background-image: url(../../Asset/list-banner.png);
+    height: 480px;
+    text-align: center;
+    padding: 100px 250px;
+}
+.list_sub{
+    font-size: 45px;
+    color: var(--background);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.list_par{
+    font-size: 24px;
+    color: var(--foreground);
+    margin: 0 auto 55px;
+    max-width: 65%;
+}
+.list_btn{
+    background-color: var(--primary-yellow);
+    color: var(--foreground);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 60px;
+    font-size: 24px;
+}

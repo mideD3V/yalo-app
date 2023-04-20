@@ -1,0 +1,58 @@
+#security {
+  height: 395px;
+  width: 100%;
+  background-color: rgba(5, 36, 43, 1);
+  display: flex;
+}
+#security img {
+  width: 100%;
+  height: 395px;
+  margin: 0;
+}
+.security_badge {
+  position: relative;
+  width: 50%;
+  height: 395px;
+}
+#safety_badge img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 40%;
+  top: 30%;
+}
+#safety_badge p {
+  position: absolute;
+  width: 182px;
+  height: 53px;
+  left: 32%;
+  top: 55%;
+  color: var(--background);
+
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.security_text {
+  width: 50%;
+  padding: 90px 70px;
+}
+
+.safety_sub{
+width: 499px;
+height: 106px;
+color: var(--background);
+
+font-weight: 800;
+font-size: 45px;
+line-height: 53px;
+}
+.security_text p{
+color: var(--foreground);
+margin: 20px 0;
+font-weight: 600;
+font-size: 20px;
+font-style: normal;
+line-height: 29px;
+}

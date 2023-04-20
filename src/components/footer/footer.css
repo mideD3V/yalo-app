@@ -1,0 +1,100 @@
+#footer {
+  background-color: rgba(5, 36, 43, 1);
+  width: 100%;
+  height: 25rem;
+}
+.footer_up {
+  width: 100vw;
+  justify-content: space-between;
+  display: flex;
+  padding: 50px 70px 25px;
+}
+.footer_logo {
+  width: 30%;
+}
+.newsletter {
+  width: 40%;
+  position: relative;
+}
+.footer_logo img {
+  margin: 0;
+}
+.footer_logo p,
+.newsletter p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--foreground);
+  margin: 0;
+}
+
+.newsletter form input {
+  width: 537px;
+  height: 65px;
+  padding: 18px 20px;
+  background: var(--foreground);
+  opacity: 1;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+.subscribe {
+  color: var(--foreground);
+  background-color: var(--primary-yellow);
+  width: 145px;
+  height: 65px;
+  font-size: 24px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  top: 37%;
+  left: 76%;
+}
+
+.footer_down {
+  background: rgba(17, 17, 17, 1);
+  width: 100%;
+  height: 589px;
+  color: var(--foreground);
+}
+
+.info {
+  display: flex;
+  padding: 50px 70px;
+  justify-content: space-between;
+}
+
+.about{
+  margin-top: -50px;
+  padding: 0;
+}
+.contact {
+  margin-top: -150px;
+}
+.support{
+  margin-top: -200px;
+}
+.faq{
+  margin-top: 0px;
+}
+
+.footer_down p, .info h2{
+  margin: 0 0 25px;
+}
+
+.socials{
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100vw;
+  margin-bottom: 15px;
+
+}
+.socials img{
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+.copyright{
+  width: 100vw;
+  text-align: center;
+}

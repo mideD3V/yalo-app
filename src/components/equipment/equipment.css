@@ -1,0 +1,25 @@
+#equipment{
+    margin: 225px 60px 60px;
+    position: relative;
+}
+
+.equipment_sub{
+width: 635px;
+height: 53px;
+font-weight: 800;
+font-size: 45px;
+line-height: 53px;
+margin: 0 0 60px;
+}
+
+.see_more{
+    position: absolute;
+width: 145px;
+height: 38px;
+left: 85%;
+top: 5%;
+color: var(--primary-yellow);
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+}
