@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import {Link} from 'react-router-dom'
 
 import Yalo from "../../Asset/yalo-logo2.png";
 import Fb from '../../Asset/socials/fb.png'
@@ -26,37 +27,45 @@ const Footer = () => {
       </div>
       <div className="footer_down">
         <div className="info">
-
           <div className="about info2">
             <h2>ABOUT US</h2>
-            <p>About Yalocart</p>
-            <p>Our team</p>
-            <p>Our mission statement</p>
-            <p>Privacy policy</p>
-            <p>Terms of service</p>
+            <p className="about_links">
+              {" "}
+              <Link>About Yalocart</Link>
+              <Link>Our team</Link>
+              <Link>Our mission statement</Link>
+              <Link>Privacy policy</Link>
+              <Link>Terms of service</Link>
+            </p>
           </div>
 
           <div className="contact">
             <h2>CONTACT US</h2>
-            <p>Send us an email</p>
-            <p>Quick chat with an agent</p>
-            <p>Blog</p>
+            <p className="about_links">
+              <Link>Send us an email</Link>
+              <Link>Quick chat with an agent</Link>
+              <Link>Blog</Link>
+            </p>
           </div>
 
           <div className="support">
             <h2>SUPPORT</h2>
-            <p>Help center</p>
-            <p>Open a support ticket</p>
+            <p className="about_links">
+              <Link to="/">Help center</Link>
+              <Link to="/">Open a support ticket</Link>
+            </p>
           </div>
 
           <div className="faq">
             <h2>FAQs</h2>
-            <p>How do I list my item for rent?</p>
-            <p>How do I promote my items?</p>
-            <p>How do I promote my items?</p>
-            <p>How do I promote my items?</p>
-            <p>How do I promote my items?</p>
-            <p>How do I promote my items?</p>
+            <p className="about_links">
+              <Link to="/">How do I list my item for rent?</Link>
+              <Link to="/">How do I promote my items?</Link>
+              <Link to="/">How do I promote my items?</Link>
+              <Link to="/">How do I promote my items?</Link>
+              <Link to="/">How do I promote my items?</Link>
+              <Link to="/">How do I promote my items?</Link>
+            </p>
           </div>
         </div>
         <div className="socials">

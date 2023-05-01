@@ -63,38 +63,48 @@
   justify-content: space-between;
 }
 
-.about{
-  margin-top: -50px;
+.about {
   padding: 0;
+  margin-top: -30px;
 }
+
+.about_links > :nth-child(n) {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: var(--foreground);
+}
+
 .contact {
-  margin-top: -150px;
+  margin-top: -130px;
 }
-.support{
-  margin-top: -200px;
+.support {
+  margin-top: -180px;
 }
-.faq{
+.faq {
   margin-top: 0px;
 }
 
-.footer_down p, .info h2{
+.footer_down p,
+.info h2 {
   margin: 0 0 25px;
 }
 
-.socials{
+.socials {
   align-items: center;
   justify-content: space-between;
   text-align: center;
   width: 100vw;
   margin-bottom: 15px;
-
 }
-.socials img{
+
+.socials img {
   width: 30px;
   height: 30px;
   margin: 0 5px;
 }
-.copyright{
+
+.copyright {
   width: 100vw;
   text-align: center;
 }

@@ -1,31 +1,22 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './components/home/Home'
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
-import Header from './components/nav/Header'
-import Hero from './components/hero/Hero'
-import Popular from './components/popular/Popular'
-import Featured from './components/featured/Featured'
-import List from './components/list/list'
-import Category from './components/category/Category'
-import Security from './components/security/Security'
-import Equipment from './components/equipment/Equipment'
-import Footer from './components/footer/Footer'
+import ListItem from './components/list/ListItem'
+import Home from "./components/home/Home";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Popular />
-      <Featured />
-      <List /> 
-      <Category />
-      <Security />
-      <Equipment/>
-      <Footer />
+
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/list" element={ <ListItem/>}/>
+
       
+      </Routes>
     </div>
   );
 }

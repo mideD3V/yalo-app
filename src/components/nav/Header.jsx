@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import { Link } from 'react-router-dom'
 import Yalo from '../../Asset/yalo-logo.png'
 import { BsShopWindow } from 'react-icons/bs'
 import { BsPerson } from "react-icons/bs";
@@ -10,8 +11,10 @@ import { IoMdNotificationsOutline } from 'react-icons/io'
 const Header = () => {
   return (
     <section className="header">
-      <div>
-        <img src={Yalo} alt="Yalo logo" />
+      <div className="logo_ctn">
+        <Link to="/">
+          <img src={Yalo} alt="Yalo logo" />
+        </Link>
       </div>
 
       <div className="nav-options">
@@ -32,7 +35,9 @@ const Header = () => {
 
         <div className="list-btn">
           <MdOutlineAddBusiness className="cart" />
-          <button>List an item</button>
+          <Link to='/list'>
+            <button>List an item</button>
+          </Link>
         </div>
       </div>
     </section>
